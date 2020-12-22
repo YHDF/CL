@@ -1,0 +1,3 @@
+movies:
+        path: /movies
+        controller: App\Controller\movies\MovieController::accueil

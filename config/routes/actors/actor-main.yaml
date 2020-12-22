@@ -1,0 +1,3 @@
+actors:
+       path: /actors
+       controller: App\Controller\actors\ActorController::accueil

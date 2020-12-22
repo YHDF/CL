@@ -1,3 +1,11 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+welcome:
+        path: /
+        controller: App\Controller\HomeController::accueil
+app_directory:
+    # loads routes from the YAML or XML files found in that directory
+    resource: '/home/yh/Project/config/routes'
+    type:     directory

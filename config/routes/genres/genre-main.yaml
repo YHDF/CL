@@ -1,0 +1,3 @@
+genres:
+       path: /genres
+       controller: App\Controller\genres\GenreController::accueil
